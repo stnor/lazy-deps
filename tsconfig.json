@@ -11,6 +11,7 @@
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
     "sourceMap": true,
     "declaration": false,
     "experimentalDecorators": true,
@@ -23,10 +24,16 @@
       "dom"
     ]
   },
+  "types": [
+    "node"
+  ],
+  "typeRoots": [
+    "node_modules/@types"
+  ],
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
     "strictTemplates": true
-  }
+  },
 }
